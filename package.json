@@ -8,13 +8,11 @@
         "lint": "tslint -c tslint.json -p tsconfig.json",
         "start": "npm run build && electron ./dist/main.js"
     },
-    "keywords": [
-        "snapcast"
-    ],
+    "keywords": ["snapcast"],
     "author": "Niklas Grebe",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^1.7.10",
+        "electron": "^1.8.1",
         "tslint": "^5.9.1",
         "typescript": "^2.6.2"
     },
